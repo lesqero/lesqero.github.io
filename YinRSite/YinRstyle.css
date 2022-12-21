@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'YinRregular';
+    src: url('lesqero.githbub.io/YinRSite/YinRFont!/yinr_font-webfont.woff2') format('woff2'),
+         url('lesqero.githbub.io/YinRSite/YinRFont!/yinr_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+  font-family: 'YinRregular', Arial
+}

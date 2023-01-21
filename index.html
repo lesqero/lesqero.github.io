@@ -41,14 +41,14 @@
 
         <script>
             $(document).ready(function(){ 
-                    $(function(){$("#DivContent").load("Posts/resistor-picture.html"); });
-                    $(function(){$("#DivContent").load("Posts/002-diff-picture.html"); });
+                    $(function(){$("#DivContent").append(<div include-html="Posts/resistor-picture.html"></div> ); });
+                    $(function(){$("#DivContent").append(<div include-html="Posts/002-diff-picture.html"></div> ); });
             }); 
         </script>
         <div id="DivContent"></div>
 
         
-        
+        <div include-html="Posts/002-diff-picture.html"></div> 
 
 
 

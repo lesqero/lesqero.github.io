@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="mystyle.css">
-        <script src="jquery-3.6.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -40,8 +40,11 @@
         </script> 
 
         <script>
-            document.getElementById('tag-id').innerHTML = '<div include-html="Posts/resistor-picture.html"></div> ';
+            $(document).ready(function(){ 
+                    $(function(){$("#DivContent").load("Posts/resistor-picture.html"); });
+            }); 
         </script>
+        <div id="DivContent"></div>
 
         
         <div include-html="Posts/002-diff-picture.html"></div> 

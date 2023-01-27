@@ -13,6 +13,7 @@
     
     --secondary: #2fa389;
     --white: #ffffff;
+    --dark: #525368;
     --black: #000000;
 }
 
@@ -23,6 +24,15 @@
     bottom: 30px;
     z-index: 99;
 }
+
+p{
+    font-family: 'Courier Prime';
+}
+
+.text-primary{
+    color: var(--dark) !important;
+}
+
 
 h1,
 .h1,
@@ -40,6 +50,9 @@ h4,
 .h4,
 .fw-medium {
     font-weight: 600 !important;
+    font-family: 'Courier Prime';
+    
+
 }
 
 h5,
@@ -48,6 +61,7 @@ h6,
 .h6,
 .fw-semi-bold {
     font-weight: 500 !important;
+    
 }
 
 .bg-dark {
@@ -58,6 +72,12 @@ h6,
 .text-black {
   color: var(--black) !important;
 }
+
+body{
+    font-family: 'Courier Prime';
+    
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;

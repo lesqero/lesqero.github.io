@@ -45,7 +45,8 @@
     <!-- Topbar End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    
+    <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 class="m-0 text-black">Youth in Resistance</h1>
         </a>
@@ -63,22 +64,78 @@
             <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Support Us<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
+    
     <!-- Navbar End --> 
     
     <!-- Header Start -->
+    <!--
     <div class="container-fluid bg-white text-black px-0 py-2">
         <div class="row gx-0 d-lg-flex">
             <div class="col-lg-3 col-md-5">
-                <img class="thumbnail" src="img/assets/lilguy-1.png" alt="image">
+                <img src="img/assets/lilguy-1.png" alt="image">
             </div>
         </div>
     </div>
+    -->
     <!-- Header End -->
+
+    <!--    Floating Navbar    -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-left d-none d-lg-block navbar-floating js-nav">
+        <a class="navbar-brand" href="#">Home -v-</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+              <a class="nav-link floating-item" href="#about">About us</a>
+              <a class="nav-link floating-item" href="#join">Join us</a>
+              <a class="nav-link floating-item" href="#donate">Support us</a>
+              <a class="nav-link floating-item" href="#contact">Contact</a>
+    </nav>
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top d-lg-none">
+        <a class="navbar-brand" href="#">Home -v- </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#join">Join us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#donate">Support us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      
+    <div class="container" style="height: 2000px;">
+        <p>This is the Header</p>
+    </div>
+
+    <div class="container" id="about" style="height: 2000px;">
+        <p>This is About</p>
+    </div>
+
+    <div class="container" id="join" style="height: 2000px;">
+        <p>This is the Join</p>
+    </div>
+
+    <div class="container" id="donate" style="height: 2000px;">
+        <p>This is the donate</p>
+    </div>
+
+    <div class="container" id="contact" style="height: 2000px;">
+        <p>This is the Contact</p>
+    </div>
 
     <!-- BOOTSTRAPPER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-    <script src="lib/simpleParallax.js-master/src/simpleParallax.js"></script>
 
     <script src="js/main.js"></script> 
 </body>

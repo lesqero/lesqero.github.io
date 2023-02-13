@@ -46,7 +46,7 @@
 
     <!-- Navbar Start -->
     
-    <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light p-0 sticky-top">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h1 class="m-0 text-black">Youth in Resistance</h1>
         </a>
@@ -56,7 +56,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Who are we?</a>
+                <a href="#about" class="nav-item nav-link">Who are we?</a>
                 <a href="" class="nav-item nav-link">Join Us!</a>
                 <a href="" class="nav-item nav-link">Blogs</a>
                 <a href="" class="nav-item nav-link">Contact</a>
@@ -80,6 +80,7 @@
     <!-- Header End -->
 
     <!--    Floating Navbar    -->
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light fixed-left d-none d-lg-block navbar-floating js-nav">
         <a class="navbar-brand" href="#">Home -v-</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,14 +114,52 @@
           </ul>
         </div>
     </nav>
+-->
       
     <div class="container" style="height: 1000px;">
         <p>This is the Header</p>
     </div>
 
-    <div class="container" id="about" style="height: 1000px;">
-        <p>This is About</p>
+    <div class="container" id="about">
+        <div class="container-md d-lg-none">
+            <div class="text-center">
+                <img class="img-fluid rounded w-25" src="img/assets/lilguy-1.png">
+            </div>
+        </div>
+            
+        <!--We are YinR -->
+        <div class="container-xxl py-5">
+           <div class="container">
+                <div class="row g-5 align-items-end">
+                  <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <img class="img-fluid rounded d-none d-lg-block" data-wow-delay="0.1s" src="img/assets/lilguy-1.png">
+                    </div>
+                    <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.3s">
+                        <p class="mb-4">We are</p>
+                        <h1 class="display-5 mb-4">Youth in resistance</h1>
+                        <p class="mb-4">A community of Radical Education and Direct Action. We unite to resist the institutions and oppressive structures that exploit people and planet around the world.</p>
+                        <p class="mb-4"> We foster a strong community based on the principles of joy, trust and empowerment. This community will support itself and commit to collectively learn how to resist. We will translate our community learning into effective direct action. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <!-- Why are we resisting YinR -->
+    <div class="container-xxl py-5">
+        <div class="container" >
+            <div class="row g-5" >
+                <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Why are we Resisting?</h1>
+                    <p class="mb-4">The joint crisis of Capitalism and Colonialism continues to destroy millions of lives across the world.</p>   
+                    <p class="mb-4">We see the symptoms of these systems in the rising death toll from the climate crisis, the unequal accumulation of wealth by just a few and the stark brutality of neocolonialism from South America to Palestine! </p>
+                </div>
+                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img class="img-fluid rounded d-none d-lg-block" data-wow-delay="0.1s" src="img/assets/lilguy-2.png">
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- Features End -->
 
     <div class="container" id="join" style="height: 1000px;">
         <p>This is the Join</p>
@@ -128,6 +167,10 @@
 
     <div class="container" id="donate" style="height: 1000px;">
         <p>This is the donate</p>
+    </div>
+
+    <div class="container" id="donate" style="height: 1000px;">
+        <p>This is the blogs</p>
     </div>
 
     <div class="container" id="contact" style="height: 1000px;">

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'youth_in_resistanceregular';
+    src: url(https://lesqero.github.io/YinRSite/YinRFont!/yinr_font-webfont.woff2) format('woff2'),
+         url(https://lesqero.github.io/YinRSite/YinRFont!/yinr_font-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Default Values */
+
+:root {
+    --bs-primary: #f90000;
+    --bs-primary-rgb: 255, 0, 0;
+    --bs-primary-lighter: #ff4a4a;
+    --bs-primary-text: #f90000;
+
+    --bs-secondary: #2fa389;
+    --bs-secondary-rgb: 47, 163, 137;
+}
+
+body{
+    font-family: 'Courier Prime';
+    }
+
+h1{
+    font-family: 'youth_in_resistanceregular';
+}
+
+/* Buttons */
+
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--bs-primary-lighter);
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+/* Floating Navbar */
+.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  
+  @media (min-width: 992px) {
+    .fixed-left {
+      width: 200px;
+    }
+  }
+  
+/*navbar-floating*/
+
+.navbar-floating{
+    top: 50%;
+    left: calc(1200px + ((100% - 1200px)/ 2));
+    position: fixed;
+    background-color: #FFF;
+    border-color: var(--bs-primary);
+    border-style: solid;
+    padding: 10px;
+}
+
+.floating-item:hover{
+    text-decoration: underline;
+}

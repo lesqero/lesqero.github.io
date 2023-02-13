@@ -49,10 +49,11 @@ h1{
     --bs-btn-disabled-border-color: #0d6efd;
 }
 
-/* Navbar */
+/* Navbar 
 .navbar-big-text{
-    font-size: 5vw;
+
 }
+*/
 /* Floating Navbar */
 .fixed-left {
     position: fixed;

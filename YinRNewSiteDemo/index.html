@@ -9,6 +9,12 @@
     <!-- BOOTSTRAPPER -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   
+    <!-- ANIMATE library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Animate on scroll animation library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!-- Site Stylesheet -->
     <link href="style.css" rel="stylesheet">
 
@@ -57,11 +63,11 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="#about" class="nav-item nav-link">Who are we?</a>
-                <a href="" class="nav-item nav-link">Join Us!</a>
-                <a href="" class="nav-item nav-link">Blogs</a>
-                <a href="" class="nav-item nav-link">Contact</a>
+                <a href="#join" class="nav-item nav-link">Join Us!</a>
+                <!--<a href="" class="nav-item nav-link">Blogs</a>-->
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Support Us<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="#donate" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Support Us<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     
@@ -115,15 +121,16 @@
         </div>
     </nav>
 -->
-      
+      <!--
     <div class="container" style="height: 1000px;">
         <p>This is the Header</p>
     </div>
+    -->
 
     <div class="container" id="about">
         <div class="container-md d-lg-none">
             <div class="text-center">
-                <img class="img-fluid rounded w-25" src="img/assets/lilguy-1.png">
+                <img class="img-fluid rounded w-25" src="img/assets/Lilguy12.png">
             </div>
         </div>
             
@@ -131,10 +138,10 @@
         <div class="container-xxl py-5">
            <div class="container">
                 <div class="row g-5 align-items-end">
-                  <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <img class="img-fluid rounded d-none d-lg-block" data-wow-delay="0.1s" src="img/assets/lilguy-1.png">
+                  <div class="col-lg-3 col-md-5" data-aos="fade-right" data-aos-duration="2000">
+                        <img class="img-fluid rounded d-none d-lg-block" src="img/assets/Lilguy12.png">
                     </div>
-                    <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-9" data-aos="fade-left" data-aos-duration="2000">
                         <p class="mb-4">We are</p>
                         <h1 class="display-5 mb-4">Youth in resistance</h1>
                         <p class="mb-4">A community of Radical Education and Direct Action. We unite to resist the institutions and oppressive structures that exploit people and planet around the world.</p>
@@ -143,42 +150,98 @@
                 </div>
             </div>
         </div>
-        
+        <div class="container-md d-lg-none">
+            <div class="text-center">
+                <img class="img-fluid rounded w-25" src="img/assets/Lilguy14.png">
+            </div>
+        </div>
     <!-- Why are we resisting YinR -->
     <div class="container-xxl py-5">
         <div class="container" >
             <div class="row g-5" >
-                <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-9" data-aos="fade-right" data-aos-duration="2000">
                     <h1 class="display-5 mb-4">Why are we Resisting?</h1>
                     <p class="mb-4">The joint crisis of Capitalism and Colonialism continues to destroy millions of lives across the world.</p>   
                     <p class="mb-4">We see the symptoms of these systems in the rising death toll from the climate crisis, the unequal accumulation of wealth by just a few and the stark brutality of neocolonialism from South America to Palestine! </p>
                 </div>
-                <div class="col-lg-3 col-md-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded d-none d-lg-block" data-wow-delay="0.1s" src="img/assets/lilguy-2.png">
+                <div class="col-lg-3 col-md-5" data-aos="fade-left" data-aos-duration="2000">
+                    <img class="img-fluid rounded d-none d-lg-block"  src="img/assets/Lilguy14.png">
                 </div>
             </div>
         </div>
     </div>
     <!-- Features End -->
 
-    <div class="container" id="join" style="height: 1000px;">
-        <p>This is the Join</p>
+    <div class="container" id="join">
+        <div class="container">
+            <div class="content">
+                <div class="container" data-aos="fade-down" data-aos-duration="2000">
+                    <div class="text-center">
+                        <img class="img-fluid rounded w-25" style="max-width: 150px" src="img/assets/wow7.png">
+                    </div>
+                </div>
+                <div id="links">
+                    <a class="link" href="QRcode.html"  rel="noopener" data-aos="fade-up" data-aos-duration="2000">Join the broadcast ↗</a>
+                    <a class="link" href="https://en.wikipedia.org/wiki/Minimalism" rel="noopener" data-aos="fade-up" data-aos-duration="2000">Follow Us On Instagram! ↗</a>
+                    <a class="link" href="https://en.wikipedia.org/wiki/Minimalism" rel="noopener" data-aos="fade-up" data-aos-duration="2000">Follow Us On Twitter! ↗</a>
+                </div>
+        
+            </div>
+        </div>
+        </div>
+
     </div>
 
-    <div class="container" id="donate" style="height: 1000px;">
-        <p>This is the donate</p>
-    </div>
+    <div class="container text-center" id="donate" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="container">
+            <img class="img-fluid rounded w-25" src="img/assets/Lilguy7.png">
+        </div>
 
+        <div class="container-xxl py-5">
+            <div class="container">
+                 <div class="row g-5 align-items-start">
+                    <div class="col-lg-7 " data-aos="fade-right" data-aos-duration="2000">
+                        <div class="container w-100 text-start">
+                            <h1 class="display-5 mb-4">Support Us!</h1>
+                            <p class="mb-4">Help us pay for booking spaces, printing materials and transport. </p>
+                            <p class="mb-4">Even a small donation can help our community grow and thrive. Help take some preassure of YinR organizers!</p>
+                        </div>
+                    </div>
+                   <div class="col-lg-5 col-md-5" data-aos="fade-left" data-aos-duration="2000">
+                        <script class="p-5" src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/support-youth-in-resistance?default_interval=m&amount=10" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important"></iframe>
+                    </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+<!--
     <div class="container" id="donate" style="height: 1000px;">
         <p>This is the blogs</p>
     </div>
+    -->
 
-    <div class="container" id="contact" style="height: 1000px;">
-        <p>This is the Contact</p>
+    <div class="container-fluid bg-secondary text-light" id="contact">
+            <div class="row gx-0 d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <span class="far fa-envelope me-2"></span>
+                        <span>ediyouthinresistance@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center mx-n2">
+                        <span>Follow Us:</span>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
     </div>
 
     <!-- BOOTSTRAPPER -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script>AOS.init();</script>
 
     <script src="js/main.js"></script> 
 </body>

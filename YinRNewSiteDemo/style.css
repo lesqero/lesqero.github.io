@@ -17,6 +17,8 @@
     --bs-secondary: #2fa389;
     --bs-secondary-rgb: 47, 163, 137;
 
+    --bs-navbar-brand-margin-end: 5;
+
     --linkscolor: #232333;
 }
 
@@ -26,7 +28,6 @@ body{
 
 h1{
     font-family: 'youth_in_resistanceregular';
-    font-size: 2rem;
 }
 
 /* Buttons */
@@ -48,6 +49,10 @@ h1{
     --bs-btn-disabled-border-color: #0d6efd;
 }
 
+/* Navbar */
+.navbar-big-text{
+    font-size: 5vw;
+}
 /* Floating Navbar */
 .fixed-left {
     position: fixed;
